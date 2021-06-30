@@ -1,8 +1,22 @@
 import "./Section.css"
+import moviesList from "./../../moviesList.json"
 
-const Section = ()=>{
+const Section = ({category, images})=>{
     return(
-        <h1>Comedie</h1>
+        <div className="container-section">
+        <h1>{category}</h1>
+        <div>
+
+        {images.map((image, index) => {
+           return(
+                <img key={index} src={image} alt="movies" />
+                );
+        })};
+
+        </div>
+   
+        </div>
+
     )
 }
 

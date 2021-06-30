@@ -1,0 +1,21 @@
+.container-section{
+    margin: 0 0 30px 50px ;
+
+}
+
+.container-section h1{
+    color: white;
+    font-size: 20px;
+    
+}
+.container-section > div{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+.container-section img{
+    margin: 15px 0;
+    width: 210px;
+
+}
