@@ -6,7 +6,7 @@ import Section from "./components/section/Section";
 
 function App() {
   return (
-    <div className="container">   
+    <div >   
       <Header />
       
       {moviesList.map((item,index)=>{

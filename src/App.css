@@ -1,6 +1,9 @@
 /* Other rules */
-.container{
-    background-color: black;
 
+body{
+    font-family: ".", sans-serif;
+    font-weight: bold;
+    background-color: black;
 }
+
 

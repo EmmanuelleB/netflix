@@ -44,4 +44,17 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+    font-family: '.';
+    src: url('./fonts/6556cde0debeefce323323efae76a83f.eot');
+    src: url('./fonts/6556cde0debeefce323323efae76a83f.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/6556cde0debeefce323323efae76a83f.woff2') format('woff2'),
+        url('./fonts/6556cde0debeefce323323efae76a83f.woff') format('woff'),
+        url('./fonts/6556cde0debeefce323323efae76a83f.ttf') format('truetype'),
+        url('./fonts/6556cde0debeefce323323efae76a83f.svg#.') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
