@@ -1,21 +1,27 @@
-.container-section{
-    margin: 0 0 30px 50px ;
-
+.container-section {
+  margin: 0 0 30px 50px;
 }
 
-.container-section h1{
-    color: white;
-    font-size: 20px;
-    
+.container-section h1 {
+  color: white;
+  font-size: 20px;
 }
-.container-section > div{
-    display: flex;
-    overflow: hidden;
-    overflow-x: scroll;
-
+.container-section > div {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
 }
-.container-section img{
-    margin: 15px 0;
-    width: 210px;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-section > div::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-section > div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container-section img {
+  margin: 15px 0;
+  width: 210px;
 }
